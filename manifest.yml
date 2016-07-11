@@ -9,8 +9,9 @@ applications:
   - name: murone-nav-demo # Step 1: Change your application name
     buildpack: staticfile_buildpack 
     #path: dist
-    memory: 64M
+    memory: 128M
     stack: cflinuxfs2
+    host: murone-nav-demo
 
     # Step 2: Bind services and configure environment variables as described on predix.io
     #services:
